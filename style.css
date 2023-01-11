@@ -1,0 +1,128 @@
+html, head, body, div, h1, h2 ,h3 ,h4 ,h5, h6, a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: lightgray;
+  background-image: url(images/triangles_pattern.png);
+}
+
+#header {
+background-color: white;
+display: inline-block;
+width: 100%;
+height: 60px;
+border-bottom: 1px solid lightgray;
+}
+.logo h1 {
+  display: inline-block;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.logoFront{
+  color: red;
+}
+.logoBack{
+  color: green;
+}
+.nav {
+  position: absolute;
+  right: 5px;
+  top: 20px
+}
+.nav a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding-right: 25px;
+  
+  
+}
+
+
+#content {
+  padding: 0px 5% 0 5%;
+}
+
+.textContent {
+  display: inline-block;
+  width: 20%;
+  padding: 30px;
+}
+.textContent h1 {
+  display: inline-block;
+  font-size: 72px;
+}
+.textContent p {
+  display: inline-block;
+  font-size: 22px;
+}
+.textContent input {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  background-image: url(images/triangles_pattern.png);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.imageContent{
+  display: inline-block;
+  padding: 150px 2% 50px 2%;
+  font-size: 18px;
+}
+.imageContent img {
+  border: 1px solid lightgray;
+}
+
+.firstPicture {
+  position: relative;
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+  padding-right: 30px;
+  
+}
+.firstPictureText {
+  position: absolute;
+  bottom: 5px;
+  right: 35px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.secondPicture {
+  position: relative;
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+  padding-right: 30px;
+}
+.secondPictureText {
+  position: absolute;
+  bottom: 5px;
+  right: 35px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.thirdPicture {
+  position: relative;
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+}
+.thirdPictureText {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
